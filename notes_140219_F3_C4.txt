@@ -1,0 +1,323 @@
+140219 - 14:12:52 - GH86-Gal4/+;pJFRC7/+;VT34811/+; F3_C4
+RigName: BasicEPhysRig
+	amplifier: MultiClamp700B
+For list of equipement run: equipmentSetupStruct('140219')
+
+	****************
+	2014-02-19 14:13:07
+	Seal; 
+	****************
+
+	SealAndLeak - 14:13:09 - GH86-Gal4/+;pJFRC7/+;VT34811/+; F3_C4
+	Trial Block 1 - Tagged as {'Seal; '}
+ 	VClamp, durSweep=0.668, gain=10, mode=[VClamp], protocol=[SealAndLeak], pulses=20, sampratein=100000, samprateout=100000, secondary_gain=10, stepamp=5, stepdur=0.0167, Vm_id=0
+		1, SealAndLeak trial 1, 14:13:10
+
+	****************
+	2014-02-19 14:14:12
+	R_input; 
+	****************
+
+	SealAndLeak - 14:14:14 - GH86-Gal4/+;pJFRC7/+;VT34811/+; F3_C4
+	Trial Block 2 - Tagged as {'R_input; '}
+ 	VClamp, durSweep=0.668, gain=50, mode=[VClamp], protocol=[SealAndLeak], pulses=20, sampratein=100000, samprateout=100000, secondary_gain=10, stepamp=5, stepdur=0.0167, Vm_id=0
+		2, SealAndLeak trial 2, 14:14:15
+
+	Sweep - 14:14:33 - GH86-Gal4/+;pJFRC7/+;VT34811/+; F3_C4
+	Trial Block 3 - Tagged as {''}
+ 	IClamp, durSweep=5, gain=50, mode=[VClamp], protocol=[Sweep], sampratein=50000, samprateout=50000, secondary_gain=10, Vm_id=0
+		3, Sweep trial 1, 14:14:38
+		4, Sweep trial 2, 14:14:44
+		5, Sweep trial 3, 14:14:49
+140219 - 14:15:31 - GH86-Gal4/+;pJFRC7/+;VT34811/+; F3_C4
+RigName: PiezoRig
+	amplifier: MultiClamp700B
+	piezo: Piezo
+	speaker: Speaker
+For list of equipement run: equipmentSetupStruct('140219')
+
+	PiezoStep - 14:15:34 - GH86-Gal4/+;pJFRC7/+;VT34811/+; F3_C4
+	Trial Block 4 - Tagged as {''}
+ 	IClamp, displacement=-1, displacementOffset=5, displacements=[-1        -0.3        -0.1         0.1         0.3           1], durSweep=0.5, gain=10, mode=[IClamp], postDurInSec=0.1, preDurInSec=0.2, protocol=[PiezoStep], sampratein=50000, samprateout=50000, secondary_gain=5, stimDurInSec=0.2, Vm_id=0
+		6, PiezoStep trial 1, displacement=-1.00, 14:15:34
+		7, PiezoStep trial 2, displacement=-0.30, 14:15:35
+		8, PiezoStep trial 3, displacement=-0.10, 14:15:36
+		9, PiezoStep trial 4, displacement=0.10, 14:15:37
+		10, PiezoStep trial 5, displacement=0.30, 14:15:38
+		11, PiezoStep trial 6, displacement=1.00, 14:15:39
+		12, PiezoStep trial 7, displacement=-1.00, 14:15:39
+		13, PiezoStep trial 8, displacement=-0.30, 14:15:40
+		14, PiezoStep trial 9, displacement=-0.10, 14:15:41
+		15, PiezoStep trial 10, displacement=0.10, 14:15:42
+		16, PiezoStep trial 11, displacement=0.30, 14:15:43
+		17, PiezoStep trial 12, displacement=1.00, 14:15:44
+		18, PiezoStep trial 13, displacement=-1.00, 14:15:44
+		19, PiezoStep trial 14, displacement=-0.30, 14:15:45
+		20, PiezoStep trial 15, displacement=-0.10, 14:15:46
+		21, PiezoStep trial 16, displacement=0.10, 14:15:47
+		22, PiezoStep trial 17, displacement=0.30, 14:15:48
+		23, PiezoStep trial 18, displacement=1.00, 14:15:48
+		24, PiezoStep trial 19, displacement=-1.00, 14:15:49
+		25, PiezoStep trial 20, displacement=-0.30, 14:15:50
+		26, PiezoStep trial 21, displacement=-0.10, 14:15:51
+		27, PiezoStep trial 22, displacement=0.10, 14:15:52
+		28, PiezoStep trial 23, displacement=0.30, 14:15:52
+		29, PiezoStep trial 24, displacement=1.00, 14:15:53
+		30, PiezoStep trial 25, displacement=-1.00, 14:15:54
+		31, PiezoStep trial 26, displacement=-0.30, 14:15:55
+		32, PiezoStep trial 27, displacement=-0.10, 14:15:56
+		33, PiezoStep trial 28, displacement=0.10, 14:15:57
+		34, PiezoStep trial 29, displacement=0.30, 14:15:57
+		35, PiezoStep trial 30, displacement=1.00, 14:15:58
+			PiezoSquareWave has a problem: UncalibratedStimulus
+
+	PiezoSquareWave - 14:16:05 - GH86-Gal4/+;pJFRC7/+;VT34811/+; F3_C4
+	Trial Block 5 - Tagged as {''}
+ 	IClamp, cycleDurInSec=0.1, cycles=6, displacement=1, displacementOffset=5, displacements=3, durSweep=0.9, gain=10, mode=[IClamp], postDurInSec=0.1, preDurInSec=0.2, protocol=[PiezoSquareWave], sampratein=50000, samprateout=50000, secondary_gain=5, stimDurInSec=0.6, Vm_id=0
+			PiezoSquareWave has a problem: UncalibratedStimulus
+		36, PiezoSquareWave trial 1, 14:16:06
+			PiezoSquareWave has a problem: UncalibratedStimulus
+		37, PiezoSquareWave trial 2, 14:16:08
+			PiezoSquareWave has a problem: UncalibratedStimulus
+		38, PiezoSquareWave trial 3, 14:16:09
+
+	PiezoSine - 14:16:16 - GH86-Gal4/+;pJFRC7/+;VT34811/+; F3_C4
+	Trial Block 6 - Tagged as {''}
+ 	IClamp, displacement=0.1, displacementOffset=5, displacements=[0.1         0.2         0.4         0.8         1.6], durSweep=1.2, freq=25, freqs=[25      35.35534            50      70.71068           100      141.4214           200      282.8427           400      565.6854           800], gain=10, mode=[IClamp], postDurInSec=0.5, preDurInSec=0.4, protocol=[PiezoSine], ramptime=0.04, sampratein=50000, samprateout=50000, secondary_gain=5, stimDurInSec=0.3, Vm_id=0
+		39, PiezoSine trial 1, displacement=0.10, freq=25.00, 14:16:17
+		40, PiezoSine trial 2, displacement=0.20, freq=25.00, 14:16:19
+		41, PiezoSine trial 3, displacement=0.40, freq=25.00, 14:16:20
+		42, PiezoSine trial 4, displacement=0.80, freq=25.00, 14:16:22
+		43, PiezoSine trial 5, displacement=1.60, freq=25.00, 14:16:23
+		44, PiezoSine trial 6, displacement=0.10, freq=35.36, 14:16:25
+		45, PiezoSine trial 7, displacement=0.20, freq=35.36, 14:16:26
+		46, PiezoSine trial 8, displacement=0.40, freq=35.36, 14:16:28
+		47, PiezoSine trial 9, displacement=0.80, freq=35.36, 14:16:30
+		48, PiezoSine trial 10, displacement=1.60, freq=35.36, 14:16:31
+		49, PiezoSine trial 11, displacement=0.10, freq=50.00, 14:16:33
+		50, PiezoSine trial 12, displacement=0.20, freq=50.00, 14:16:34
+		51, PiezoSine trial 13, displacement=0.40, freq=50.00, 14:16:36
+		52, PiezoSine trial 14, displacement=0.80, freq=50.00, 14:16:38
+		53, PiezoSine trial 15, displacement=1.60, freq=50.00, 14:16:39
+		54, PiezoSine trial 16, displacement=0.10, freq=70.71, 14:16:41
+		55, PiezoSine trial 17, displacement=0.20, freq=70.71, 14:16:43
+		56, PiezoSine trial 18, displacement=0.40, freq=70.71, 14:16:44
+		57, PiezoSine trial 19, displacement=0.80, freq=70.71, 14:16:46
+		58, PiezoSine trial 20, displacement=1.60, freq=70.71, 14:16:47
+		59, PiezoSine trial 21, displacement=0.10, freq=100.00, 14:16:49
+		60, PiezoSine trial 22, displacement=0.20, freq=100.00, 14:16:51
+		61, PiezoSine trial 23, displacement=0.40, freq=100.00, 14:16:53
+		62, PiezoSine trial 24, displacement=0.80, freq=100.00, 14:16:54
+		63, PiezoSine trial 25, displacement=1.60, freq=100.00, 14:16:56
+		64, PiezoSine trial 26, displacement=0.10, freq=141.42, 14:16:57
+		65, PiezoSine trial 27, displacement=0.20, freq=141.42, 14:16:59
+		66, PiezoSine trial 28, displacement=0.40, freq=141.42, 14:17:00
+		67, PiezoSine trial 29, displacement=0.80, freq=141.42, 14:17:02
+		68, PiezoSine trial 30, displacement=1.60, freq=141.42, 14:17:04
+		69, PiezoSine trial 31, displacement=0.10, freq=200.00, 14:17:05
+		70, PiezoSine trial 32, displacement=0.20, freq=200.00, 14:17:07
+		71, PiezoSine trial 33, displacement=0.40, freq=200.00, 14:17:09
+		72, PiezoSine trial 34, displacement=0.80, freq=200.00, 14:17:11
+		73, PiezoSine trial 35, displacement=1.60, freq=200.00, 14:17:12
+		74, PiezoSine trial 36, displacement=0.10, freq=282.84, 14:17:14
+		75, PiezoSine trial 37, displacement=0.20, freq=282.84, 14:17:16
+		76, PiezoSine trial 38, displacement=0.40, freq=282.84, 14:17:17
+		77, PiezoSine trial 39, displacement=0.80, freq=282.84, 14:17:19
+		78, PiezoSine trial 40, displacement=1.60, freq=282.84, 14:17:20
+		79, PiezoSine trial 41, displacement=0.10, freq=400.00, 14:17:22
+		80, PiezoSine trial 42, displacement=0.20, freq=400.00, 14:17:24
+		81, PiezoSine trial 43, displacement=0.40, freq=400.00, 14:17:25
+		82, PiezoSine trial 44, displacement=0.80, freq=400.00, 14:17:27
+		83, PiezoSine trial 45, displacement=1.60, freq=400.00, 14:17:29
+		84, PiezoSine trial 46, displacement=0.10, freq=565.69, 14:17:30
+		85, PiezoSine trial 47, displacement=0.20, freq=565.69, 14:17:32
+		86, PiezoSine trial 48, displacement=0.40, freq=565.69, 14:17:33
+		87, PiezoSine trial 49, displacement=0.80, freq=565.69, 14:17:35
+		88, PiezoSine trial 50, displacement=1.60, freq=565.69, 14:17:37
+		89, PiezoSine trial 51, displacement=0.10, freq=800.00, 14:17:39
+		90, PiezoSine trial 52, displacement=0.20, freq=800.00, 14:17:40
+		91, PiezoSine trial 53, displacement=0.40, freq=800.00, 14:17:43
+		92, PiezoSine trial 54, displacement=0.80, freq=800.00, 14:17:44
+		93, PiezoSine trial 55, displacement=1.60, freq=800.00, 14:17:46
+		94, PiezoSine trial 56, displacement=0.10, freq=25.00, 14:17:47
+		95, PiezoSine trial 57, displacement=0.20, freq=25.00, 14:17:49
+		96, PiezoSine trial 58, displacement=0.40, freq=25.00, 14:17:50
+		97, PiezoSine trial 59, displacement=0.80, freq=25.00, 14:17:52
+		98, PiezoSine trial 60, displacement=1.60, freq=25.00, 14:17:53
+		99, PiezoSine trial 61, displacement=0.10, freq=35.36, 14:17:55
+		100, PiezoSine trial 62, displacement=0.20, freq=35.36, 14:17:56
+		101, PiezoSine trial 63, displacement=0.40, freq=35.36, 14:17:58
+		102, PiezoSine trial 64, displacement=0.80, freq=35.36, 14:17:59
+		103, PiezoSine trial 65, displacement=1.60, freq=35.36, 14:18:02
+		104, PiezoSine trial 66, displacement=0.10, freq=50.00, 14:18:03
+		105, PiezoSine trial 67, displacement=0.20, freq=50.00, 14:18:05
+		106, PiezoSine trial 68, displacement=0.40, freq=50.00, 14:18:07
+		107, PiezoSine trial 69, displacement=0.80, freq=50.00, 14:18:08
+		108, PiezoSine trial 70, displacement=1.60, freq=50.00, 14:18:11
+		109, PiezoSine trial 71, displacement=0.10, freq=70.71, 14:18:13
+		110, PiezoSine trial 72, displacement=0.20, freq=70.71, 14:18:15
+		111, PiezoSine trial 73, displacement=0.40, freq=70.71, 14:18:16
+		112, PiezoSine trial 74, displacement=0.80, freq=70.71, 14:18:18
+		113, PiezoSine trial 75, displacement=1.60, freq=70.71, 14:18:20
+		114, PiezoSine trial 76, displacement=0.10, freq=100.00, 14:18:21
+		115, PiezoSine trial 77, displacement=0.20, freq=100.00, 14:18:23
+		116, PiezoSine trial 78, displacement=0.40, freq=100.00, 14:18:24
+		117, PiezoSine trial 79, displacement=0.80, freq=100.00, 14:18:26
+		118, PiezoSine trial 80, displacement=1.60, freq=100.00, 14:18:27
+		119, PiezoSine trial 81, displacement=0.10, freq=141.42, 14:18:29
+		120, PiezoSine trial 82, displacement=0.20, freq=141.42, 14:18:31
+		121, PiezoSine trial 83, displacement=0.40, freq=141.42, 14:18:32
+		122, PiezoSine trial 84, displacement=0.80, freq=141.42, 14:18:34
+		123, PiezoSine trial 85, displacement=1.60, freq=141.42, 14:18:35
+		124, PiezoSine trial 86, displacement=0.10, freq=200.00, 14:18:37
+		125, PiezoSine trial 87, displacement=0.20, freq=200.00, 14:18:39
+		126, PiezoSine trial 88, displacement=0.40, freq=200.00, 14:18:41
+		127, PiezoSine trial 89, displacement=0.80, freq=200.00, 14:18:43
+		128, PiezoSine trial 90, displacement=1.60, freq=200.00, 14:18:45
+		129, PiezoSine trial 91, displacement=0.10, freq=282.84, 14:18:46
+		130, PiezoSine trial 92, displacement=0.20, freq=282.84, 14:18:48
+		131, PiezoSine trial 93, displacement=0.40, freq=282.84, 14:18:50
+		132, PiezoSine trial 94, displacement=0.80, freq=282.84, 14:18:52
+		133, PiezoSine trial 95, displacement=1.60, freq=282.84, 14:18:55
+		134, PiezoSine trial 96, displacement=0.10, freq=400.00, 14:18:56
+		135, PiezoSine trial 97, displacement=0.20, freq=400.00, 14:18:58
+		136, PiezoSine trial 98, displacement=0.40, freq=400.00, 14:19:00
+		137, PiezoSine trial 99, displacement=0.80, freq=400.00, 14:19:03
+		138, PiezoSine trial 100, displacement=1.60, freq=400.00, 14:19:05
+		139, PiezoSine trial 101, displacement=0.10, freq=565.69, 14:19:07
+		140, PiezoSine trial 102, displacement=0.20, freq=565.69, 14:19:08
+		141, PiezoSine trial 103, displacement=0.40, freq=565.69, 14:19:10
+		142, PiezoSine trial 104, displacement=0.80, freq=565.69, 14:19:11
+		143, PiezoSine trial 105, displacement=1.60, freq=565.69, 14:19:13
+		144, PiezoSine trial 106, displacement=0.10, freq=800.00, 14:19:14
+		145, PiezoSine trial 107, displacement=0.20, freq=800.00, 14:19:16
+		146, PiezoSine trial 108, displacement=0.40, freq=800.00, 14:19:17
+		147, PiezoSine trial 109, displacement=0.80, freq=800.00, 14:19:19
+		148, PiezoSine trial 110, displacement=1.60, freq=800.00, 14:19:20
+		149, PiezoSine trial 111, displacement=0.10, freq=25.00, 14:19:22
+		150, PiezoSine trial 112, displacement=0.20, freq=25.00, 14:19:23
+		151, PiezoSine trial 113, displacement=0.40, freq=25.00, 14:19:26
+		152, PiezoSine trial 114, displacement=0.80, freq=25.00, 14:19:27
+		153, PiezoSine trial 115, displacement=1.60, freq=25.00, 14:19:30
+		154, PiezoSine trial 116, displacement=0.10, freq=35.36, 14:19:31
+		155, PiezoSine trial 117, displacement=0.20, freq=35.36, 14:19:34
+		156, PiezoSine trial 118, displacement=0.40, freq=35.36, 14:19:35
+		157, PiezoSine trial 119, displacement=0.80, freq=35.36, 14:19:38
+		158, PiezoSine trial 120, displacement=1.60, freq=35.36, 14:19:39
+		159, PiezoSine trial 121, displacement=0.10, freq=50.00, 14:19:41
+		160, PiezoSine trial 122, displacement=0.20, freq=50.00, 14:19:44
+		161, PiezoSine trial 123, displacement=0.40, freq=50.00, 14:19:45
+		162, PiezoSine trial 124, displacement=0.80, freq=50.00, 14:19:47
+		163, PiezoSine trial 125, displacement=1.60, freq=50.00, 14:19:48
+		164, PiezoSine trial 126, displacement=0.10, freq=70.71, 14:19:50
+		165, PiezoSine trial 127, displacement=0.20, freq=70.71, 14:19:51
+		166, PiezoSine trial 128, displacement=0.40, freq=70.71, 14:19:53
+		167, PiezoSine trial 129, displacement=0.80, freq=70.71, 14:19:55
+		168, PiezoSine trial 130, displacement=1.60, freq=70.71, 14:19:57
+		169, PiezoSine trial 131, displacement=0.10, freq=100.00, 14:19:59
+		170, PiezoSine trial 132, displacement=0.20, freq=100.00, 14:20:01
+		171, PiezoSine trial 133, displacement=0.40, freq=100.00, 14:20:02
+		172, PiezoSine trial 134, displacement=0.80, freq=100.00, 14:20:05
+		173, PiezoSine trial 135, displacement=1.60, freq=100.00, 14:20:06
+		174, PiezoSine trial 136, displacement=0.10, freq=141.42, 14:20:09
+		175, PiezoSine trial 137, displacement=0.20, freq=141.42, 14:20:10
+		176, PiezoSine trial 138, displacement=0.40, freq=141.42, 14:20:12
+		177, PiezoSine trial 139, displacement=0.80, freq=141.42, 14:20:15
+		178, PiezoSine trial 140, displacement=1.60, freq=141.42, 14:20:17
+		179, PiezoSine trial 141, displacement=0.10, freq=200.00, 14:20:19
+		180, PiezoSine trial 142, displacement=0.20, freq=200.00, 14:20:21
+		181, PiezoSine trial 143, displacement=0.40, freq=200.00, 14:20:23
+		182, PiezoSine trial 144, displacement=0.80, freq=200.00, 14:20:24
+		183, PiezoSine trial 145, displacement=1.60, freq=200.00, 14:20:26
+		184, PiezoSine trial 146, displacement=0.10, freq=282.84, 14:20:27
+		185, PiezoSine trial 147, displacement=0.20, freq=282.84, 14:20:29
+		186, PiezoSine trial 148, displacement=0.40, freq=282.84, 14:20:30
+		187, PiezoSine trial 149, displacement=0.80, freq=282.84, 14:20:33
+		188, PiezoSine trial 150, displacement=1.60, freq=282.84, 14:20:34
+		189, PiezoSine trial 151, displacement=0.10, freq=400.00, 14:20:37
+		190, PiezoSine trial 152, displacement=0.20, freq=400.00, 14:20:39
+		191, PiezoSine trial 153, displacement=0.40, freq=400.00, 14:20:40
+		192, PiezoSine trial 154, displacement=0.80, freq=400.00, 14:20:43
+		193, PiezoSine trial 155, displacement=1.60, freq=400.00, 14:20:44
+		194, PiezoSine trial 156, displacement=0.10, freq=565.69, 14:20:47
+		195, PiezoSine trial 157, displacement=0.20, freq=565.69, 14:20:49
+		196, PiezoSine trial 158, displacement=0.40, freq=565.69, 14:20:50
+		197, PiezoSine trial 159, displacement=0.80, freq=565.69, 14:20:53
+		198, PiezoSine trial 160, displacement=1.60, freq=565.69, 14:20:56
+		199, PiezoSine trial 161, displacement=0.10, freq=800.00, 14:20:57
+		200, PiezoSine trial 162, displacement=0.20, freq=800.00, 14:20:59
+		201, PiezoSine trial 163, displacement=0.40, freq=800.00, 14:21:00
+		202, PiezoSine trial 164, displacement=0.80, freq=800.00, 14:21:01
+		203, PiezoSine trial 165, displacement=1.60, freq=800.00, 14:21:03
+
+	PiezoBWCourtshipSong - 14:21:18 - GH86-Gal4/+;pJFRC7/+;VT34811/+; F3_C4
+	Trial Block 7 - Tagged as {''}
+ 	IClamp, displacement=0.1, displacementOffset=5, displacements=[0.2         0.4         0.8], durSweep=2.3115, gain=10, mode=[IClamp], postDurInSec=1, preDurInSec=0.4, protocol=[PiezoBWCourtshipSong], ramptime=0.04, sampratein=40000, samprateout=40000, secondary_gain=5, stimDurInSec=0.91153, Vm_id=0
+		204, PiezoBWCourtshipSong trial 1, displacement=0.20, 14:21:20
+		205, PiezoBWCourtshipSong trial 2, displacement=0.40, 14:21:23
+		206, PiezoBWCourtshipSong trial 3, displacement=0.80, 14:21:26
+		207, PiezoBWCourtshipSong trial 4, displacement=0.20, 14:21:29
+		208, PiezoBWCourtshipSong trial 5, displacement=0.40, 14:21:31
+		209, PiezoBWCourtshipSong trial 6, displacement=0.80, 14:21:34
+		210, PiezoBWCourtshipSong trial 7, displacement=0.20, 14:21:37
+		211, PiezoBWCourtshipSong trial 8, displacement=0.40, 14:21:40
+		212, PiezoBWCourtshipSong trial 9, displacement=0.80, 14:21:42
+
+	PiezoCourtshipSong - 14:22:00 - GH86-Gal4/+;pJFRC7/+;VT34811/+; F3_C4
+	Trial Block 8 - Tagged as {''}
+ 	IClamp, displacement=0.1, displacementOffset=5, displacements=[0.2         0.4], durSweep=2.3115, gain=10, mode=[IClamp], postDurInSec=1, preDurInSec=0.4, protocol=[PiezoCourtshipSong], ramptime=0.04, sampratein=40000, samprateout=40000, secondary_gain=5, stimDurInSec=0.91153, Vm_id=0
+		213, PiezoCourtshipSong trial 1, displacement=0.20, 14:22:02
+		214, PiezoCourtshipSong trial 2, displacement=0.40, 14:22:05
+		215, PiezoCourtshipSong trial 3, displacement=0.20, 14:22:08
+		216, PiezoCourtshipSong trial 4, displacement=0.40, 14:22:10
+		217, PiezoCourtshipSong trial 5, displacement=0.20, 14:22:13
+		218, PiezoCourtshipSong trial 6, displacement=0.40, 14:22:16
+
+	PiezoCourtshipSong - 14:22:23 - GH86-Gal4/+;pJFRC7/+;VT34811/+; F3_C4
+	Trial Block 9 - Tagged as {''}
+ 	IClamp, displacement=0.1, displacementOffset=5, displacements=[0.2         0.4         0.8], durSweep=2.3115, gain=10, mode=[IClamp], postDurInSec=1, preDurInSec=0.4, protocol=[PiezoCourtshipSong], ramptime=0.04, sampratein=40000, samprateout=40000, secondary_gain=5, stimDurInSec=0.91153, Vm_id=0
+		219, PiezoCourtshipSong trial 7, displacement=0.20, 14:22:25
+		220, PiezoCourtshipSong trial 8, displacement=0.40, 14:22:28
+		221, PiezoCourtshipSong trial 9, displacement=0.80, 14:22:31
+		222, PiezoCourtshipSong trial 10, displacement=0.20, 14:22:33
+		223, PiezoCourtshipSong trial 11, displacement=0.40, 14:22:36
+		224, PiezoCourtshipSong trial 12, displacement=0.80, 14:22:39
+		225, PiezoCourtshipSong trial 13, displacement=0.20, 14:22:41
+		226, PiezoCourtshipSong trial 14, displacement=0.40, 14:22:44
+		227, PiezoCourtshipSong trial 15, displacement=0.80, 14:22:47
+
+	PiezoChirp - 14:23:24 - GH86-Gal4/+;pJFRC7/+;VT34811/+; F3_C4
+	Trial Block 10 - Tagged as {''}
+ 	IClamp, displacement=0.4, displacementOffset=5, displacements=[0.4         0.8         1.6], durSweep=11, freqEnd=800, freqStart=25, gain=10, mode=[IClamp], postDurInSec=0.5, preDurInSec=0.5, protocol=[PiezoChirp], ramptime=0.04, sampratein=50000, samprateout=50000, secondary_gain=5, stimDurInSec=10, Vm_id=0
+		228, PiezoChirp trial 1, displacement=0.40, 14:23:36
+		229, PiezoChirp trial 2, displacement=0.80, 14:23:47
+		230, PiezoChirp trial 3, displacement=1.60, 14:23:59
+		231, PiezoChirp trial 4, displacement=0.40, 14:24:11
+		232, PiezoChirp trial 5, displacement=0.80, 14:24:22
+		233, PiezoChirp trial 6, displacement=1.60, 14:24:34
+		234, PiezoChirp trial 7, displacement=0.40, 14:24:46
+		235, PiezoChirp trial 8, displacement=0.80, 14:24:58
+		236, PiezoChirp trial 9, displacement=1.60, 14:25:09
+
+	****************
+	2014-02-19 14:25:27
+	TTX; 
+	****************
+
+	PiezoSine - 14:29:16 - GH86-Gal4/+;pJFRC7/+;VT34811/+; F3_C4
+	Trial Block 11 - Tagged as {'TTX; '}
+ 	IClamp, displacement=0.1, displacementOffset=5, displacements=[0.1         0.2         0.4         0.8         1.6], durSweep=1.2, freq=25, freqs=[25      35.35534            50      70.71068           100      141.4214           200      282.8427           400      565.6854           800], gain=10, mode=[IClamp], postDurInSec=0.5, preDurInSec=0.4, protocol=[PiezoSine], ramptime=0.04, sampratein=50000, samprateout=50000, secondary_gain=5, stimDurInSec=0.3, Vm_id=0
+		237, PiezoSine trial 166, displacement=0.10, freq=25.00, 14:29:17
+		238, PiezoSine trial 167, displacement=0.20, freq=25.00, 14:29:19
+		239, PiezoSine trial 168, displacement=0.40, freq=25.00, 14:29:20
+		240, PiezoSine trial 169, displacement=0.80, freq=25.00, 14:29:22
+		241, PiezoSine trial 170, displacement=1.60, freq=25.00, 14:29:23
+		242, PiezoSine trial 171, displacement=0.10, freq=35.36, 14:29:25
+		243, PiezoSine trial 172, displacement=0.20, freq=35.36, 14:29:26
+		244, PiezoSine trial 173, displacement=0.40, freq=35.36, 14:29:28
+		245, PiezoSine trial 174, displacement=0.80, freq=35.36, 14:29:29
+		246, PiezoSine trial 175, displacement=1.60, freq=35.36, 14:29:31
+		247, PiezoSine trial 176, displacement=0.10, freq=50.00, 14:29:32
+		248, PiezoSine trial 177, displacement=0.20, freq=50.00, 14:29:34
+		249, PiezoSine trial 178, displacement=0.40, freq=50.00, 14:29:36
+		250, PiezoSine trial 179, displacement=0.80, freq=50.00, 14:29:37

@@ -1,0 +1,211 @@
+140424 - 14:53:57 - GH86-Gal4/+;pJFRC7/+;VT34811/+; F1_C1
+RigName: BasicEPhysRig
+	amplifier: MultiClamp700BAux
+For list of equipement run: equipmentSetupStruct('140424')
+140424 - 14:54:21 - GH86-Gal4/+;pJFRC7/+;VT34811/+; F1_C1
+RigName: TwoTrodeRig
+	amplifier_1: MultiClamp700BAux
+	amplifier_2: MultiClamp700B
+For list of equipement run: equipmentSetupStruct('140424')
+
+	CurrentSine - 14:54:25 - GH86-Gal4/+;pJFRC7/+;VT34811/+; F1_C1
+	Trial Block 1 - Tagged as {''}
+ 	{IClamp,IClamp}, amp=5, amps=[5  10  20], durSweep=1.4, freq=17.6777, freqs=[17.67767            25      35.35534            50      70.71068           100      141.4214           200      282.8427           400      565.6854           800], gain=, mode=, postDurInSec=0.5, preDurInSec=0.5, protocol=[CurrentSine], ramptime=0.04, sampratein=50000, samprateout=50000, secondary_gain=, stimDurInSec=0.4, Vm_id=0
+		1, CurrentSine trial 1, amp=5.00, freq=17.68, 14:54:27
+		2, CurrentSine trial 2, amp=10.00, freq=17.68, 14:54:29
+		3, CurrentSine trial 3, amp=20.00, freq=17.68, 14:54:31
+		4, CurrentSine trial 4, amp=5.00, freq=25.00, 14:54:32
+		5, CurrentSine trial 5, amp=10.00, freq=25.00, 14:54:34
+		6, CurrentSine trial 6, amp=20.00, freq=25.00, 14:54:36
+		7, CurrentSine trial 7, amp=5.00, freq=35.36, 14:54:38
+		8, CurrentSine trial 8, amp=10.00, freq=35.36, 14:54:39
+		9, CurrentSine trial 9, amp=20.00, freq=35.36, 14:54:41
+		10, CurrentSine trial 10, amp=5.00, freq=50.00, 14:54:43
+		11, CurrentSine trial 11, amp=10.00, freq=50.00, 14:54:45
+		12, CurrentSine trial 12, amp=20.00, freq=50.00, 14:54:46
+		13, CurrentSine trial 13, amp=5.00, freq=70.71, 14:54:48
+		14, CurrentSine trial 14, amp=10.00, freq=70.71, 14:54:50
+		15, CurrentSine trial 15, amp=20.00, freq=70.71, 14:54:52
+		16, CurrentSine trial 16, amp=5.00, freq=100.00, 14:54:54
+		17, CurrentSine trial 17, amp=10.00, freq=100.00, 14:54:55
+		18, CurrentSine trial 18, amp=20.00, freq=100.00, 14:54:57
+		19, CurrentSine trial 19, amp=5.00, freq=141.42, 14:54:59
+		20, CurrentSine trial 20, amp=10.00, freq=141.42, 14:55:01
+		21, CurrentSine trial 21, amp=20.00, freq=141.42, 14:55:02
+		22, CurrentSine trial 22, amp=5.00, freq=200.00, 14:55:04
+		23, CurrentSine trial 23, amp=10.00, freq=200.00, 14:55:06
+		24, CurrentSine trial 24, amp=20.00, freq=200.00, 14:55:08
+		25, CurrentSine trial 25, amp=5.00, freq=282.84, 14:55:10
+		26, CurrentSine trial 26, amp=10.00, freq=282.84, 14:55:11
+		27, CurrentSine trial 27, amp=20.00, freq=282.84, 14:55:13
+		28, CurrentSine trial 28, amp=5.00, freq=400.00, 14:55:15
+		29, CurrentSine trial 29, amp=10.00, freq=400.00, 14:55:16
+		30, CurrentSine trial 30, amp=20.00, freq=400.00, 14:55:18
+		31, CurrentSine trial 31, amp=5.00, freq=565.69, 14:55:20
+		32, CurrentSine trial 32, amp=10.00, freq=565.69, 14:55:22
+		33, CurrentSine trial 33, amp=20.00, freq=565.69, 14:55:23
+		34, CurrentSine trial 34, amp=5.00, freq=800.00, 14:55:25
+		35, CurrentSine trial 35, amp=10.00, freq=800.00, 14:55:27
+		36, CurrentSine trial 36, amp=20.00, freq=800.00, 14:55:28
+		37, CurrentSine trial 37, amp=5.00, freq=17.68, 14:55:30
+		38, CurrentSine trial 38, amp=10.00, freq=17.68, 14:55:32
+		39, CurrentSine trial 39, amp=20.00, freq=17.68, 14:55:34
+		40, CurrentSine trial 40, amp=5.00, freq=25.00, 14:55:36
+		41, CurrentSine trial 41, amp=10.00, freq=25.00, 14:55:37
+		42, CurrentSine trial 42, amp=20.00, freq=25.00, 14:55:39
+		43, CurrentSine trial 43, amp=5.00, freq=35.36, 14:55:41
+		44, CurrentSine trial 44, amp=10.00, freq=35.36, 14:55:43
+		45, CurrentSine trial 45, amp=20.00, freq=35.36, 14:55:44
+		46, CurrentSine trial 46, amp=5.00, freq=50.00, 14:55:46
+		47, CurrentSine trial 47, amp=10.00, freq=50.00, 14:55:48
+		48, CurrentSine trial 48, amp=20.00, freq=50.00, 14:55:49
+		49, CurrentSine trial 49, amp=5.00, freq=70.71, 14:55:51
+		50, CurrentSine trial 50, amp=10.00, freq=70.71, 14:55:53
+		51, CurrentSine trial 51, amp=20.00, freq=70.71, 14:55:55
+		52, CurrentSine trial 52, amp=5.00, freq=100.00, 14:55:56
+		53, CurrentSine trial 53, amp=10.00, freq=100.00, 14:55:58
+		54, CurrentSine trial 54, amp=20.00, freq=100.00, 14:56:00
+		55, CurrentSine trial 55, amp=5.00, freq=141.42, 14:56:02
+		56, CurrentSine trial 56, amp=10.00, freq=141.42, 14:56:03
+		57, CurrentSine trial 57, amp=20.00, freq=141.42, 14:56:05
+		58, CurrentSine trial 58, amp=5.00, freq=200.00, 14:56:07
+		59, CurrentSine trial 59, amp=10.00, freq=200.00, 14:56:08
+		60, CurrentSine trial 60, amp=20.00, freq=200.00, 14:56:10
+		61, CurrentSine trial 61, amp=5.00, freq=282.84, 14:56:12
+		62, CurrentSine trial 62, amp=10.00, freq=282.84, 14:56:14
+		63, CurrentSine trial 63, amp=20.00, freq=282.84, 14:56:15
+		64, CurrentSine trial 64, amp=5.00, freq=400.00, 14:56:17
+		65, CurrentSine trial 65, amp=10.00, freq=400.00, 14:56:19
+		66, CurrentSine trial 66, amp=20.00, freq=400.00, 14:56:21
+		67, CurrentSine trial 67, amp=5.00, freq=565.69, 14:56:23
+		68, CurrentSine trial 68, amp=10.00, freq=565.69, 14:56:24
+		69, CurrentSine trial 69, amp=20.00, freq=565.69, 14:56:26
+		70, CurrentSine trial 70, amp=5.00, freq=800.00, 14:56:28
+		71, CurrentSine trial 71, amp=10.00, freq=800.00, 14:56:29
+		72, CurrentSine trial 72, amp=20.00, freq=800.00, 14:56:31
+		73, CurrentSine trial 73, amp=5.00, freq=17.68, 14:56:33
+		74, CurrentSine trial 74, amp=10.00, freq=17.68, 14:56:35
+		75, CurrentSine trial 75, amp=20.00, freq=17.68, 14:56:37
+		76, CurrentSine trial 76, amp=5.00, freq=25.00, 14:56:38
+		77, CurrentSine trial 77, amp=10.00, freq=25.00, 14:56:40
+		78, CurrentSine trial 78, amp=20.00, freq=25.00, 14:56:42
+		79, CurrentSine trial 79, amp=5.00, freq=35.36, 14:56:43
+		80, CurrentSine trial 80, amp=10.00, freq=35.36, 14:56:45
+		81, CurrentSine trial 81, amp=20.00, freq=35.36, 14:56:47
+		82, CurrentSine trial 82, amp=5.00, freq=50.00, 14:56:49
+		83, CurrentSine trial 83, amp=10.00, freq=50.00, 14:56:51
+		84, CurrentSine trial 84, amp=20.00, freq=50.00, 14:56:52
+		85, CurrentSine trial 85, amp=5.00, freq=70.71, 14:56:54
+		86, CurrentSine trial 86, amp=10.00, freq=70.71, 14:56:56
+		87, CurrentSine trial 87, amp=20.00, freq=70.71, 14:56:58
+		88, CurrentSine trial 88, amp=5.00, freq=100.00, 14:56:59
+		89, CurrentSine trial 89, amp=10.00, freq=100.00, 14:57:01
+		90, CurrentSine trial 90, amp=20.00, freq=100.00, 14:57:03
+		91, CurrentSine trial 91, amp=5.00, freq=141.42, 14:57:05
+		92, CurrentSine trial 92, amp=10.00, freq=141.42, 14:57:07
+		93, CurrentSine trial 93, amp=20.00, freq=141.42, 14:57:08
+		94, CurrentSine trial 94, amp=5.00, freq=200.00, 14:57:10
+		95, CurrentSine trial 95, amp=10.00, freq=200.00, 14:57:12
+		96, CurrentSine trial 96, amp=20.00, freq=200.00, 14:57:13
+		97, CurrentSine trial 97, amp=5.00, freq=282.84, 14:57:15
+		98, CurrentSine trial 98, amp=10.00, freq=282.84, 14:57:17
+		99, CurrentSine trial 99, amp=20.00, freq=282.84, 14:57:19
+		100, CurrentSine trial 100, amp=5.00, freq=400.00, 14:57:20
+		101, CurrentSine trial 101, amp=10.00, freq=400.00, 14:57:22
+		102, CurrentSine trial 102, amp=20.00, freq=400.00, 14:57:24
+		103, CurrentSine trial 103, amp=5.00, freq=565.69, 14:57:25
+		104, CurrentSine trial 104, amp=10.00, freq=565.69, 14:57:27
+		105, CurrentSine trial 105, amp=20.00, freq=565.69, 14:57:29
+		106, CurrentSine trial 106, amp=5.00, freq=800.00, 14:57:30
+		107, CurrentSine trial 107, amp=10.00, freq=800.00, 14:57:32
+		108, CurrentSine trial 108, amp=20.00, freq=800.00, 14:57:34
+
+	CurrentStep - 14:58:42 - GH86-Gal4/+;pJFRC7/+;VT34811/+; F1_C1
+	Trial Block 2 - Tagged as {''}
+ 	{IClamp,IClamp}, durSweep=0.44, gain=, mode=, postDurInSec=0.2, preDurInSec=0.2, protocol=[CurrentStep], sampratein=50000, samprateout=50000, secondary_gain=, step=-20, steps=[-20  10  20  40], stimDurInSec=0.04, Vm_id=0
+		109, CurrentStep trial 1, step=-20.00, 14:58:43
+		110, CurrentStep trial 2, step=10.00, 14:58:44
+		111, CurrentStep trial 3, step=20.00, 14:58:45
+		112, CurrentStep trial 4, step=40.00, 14:58:45
+		113, CurrentStep trial 5, step=-20.00, 14:58:46
+		114, CurrentStep trial 6, step=10.00, 14:58:47
+		115, CurrentStep trial 7, step=20.00, 14:58:48
+		116, CurrentStep trial 8, step=40.00, 14:58:48
+		117, CurrentStep trial 9, step=-20.00, 14:58:49
+		118, CurrentStep trial 10, step=10.00, 14:58:50
+		119, CurrentStep trial 11, step=20.00, 14:58:50
+		120, CurrentStep trial 12, step=40.00, 14:58:51
+		121, CurrentStep trial 13, step=-20.00, 14:58:52
+		122, CurrentStep trial 14, step=10.00, 14:58:53
+		123, CurrentStep trial 15, step=20.00, 14:58:53
+		124, CurrentStep trial 16, step=40.00, 14:58:54
+		125, CurrentStep trial 17, step=-20.00, 14:58:55
+		126, CurrentStep trial 18, step=10.00, 14:58:56
+		127, CurrentStep trial 19, step=20.00, 14:58:56
+		128, CurrentStep trial 20, step=40.00, 14:58:57
+
+	CurrentStep - 14:59:52 - GH86-Gal4/+;pJFRC7/+;VT34811/+; F1_C1
+	Trial Block 3 - Tagged as {''}
+ 	{IClamp,IClamp}, durSweep=0.42, gain=, mode=, postDurInSec=0.2, preDurInSec=0.2, protocol=[CurrentStep], sampratein=50000, samprateout=50000, secondary_gain=, step=-40, steps=[-40 -20 -10  10  20  40], stimDurInSec=0.02, Vm_id=0
+		129, CurrentStep trial 21, step=-40.00, 14:59:53
+		130, CurrentStep trial 22, step=-20.00, 14:59:54
+		131, CurrentStep trial 23, step=-10.00, 14:59:55
+		132, CurrentStep trial 24, step=10.00, 14:59:55
+		133, CurrentStep trial 25, step=20.00, 14:59:56
+		134, CurrentStep trial 26, step=40.00, 14:59:57
+		135, CurrentStep trial 27, step=-40.00, 14:59:57
+		136, CurrentStep trial 28, step=-20.00, 14:59:58
+		137, CurrentStep trial 29, step=-10.00, 14:59:59
+		138, CurrentStep trial 30, step=10.00, 15:00:00
+		139, CurrentStep trial 31, step=20.00, 15:00:00
+		140, CurrentStep trial 32, step=40.00, 15:00:01
+		141, CurrentStep trial 33, step=-40.00, 15:00:02
+		142, CurrentStep trial 34, step=-20.00, 15:00:02
+		143, CurrentStep trial 35, step=-10.00, 15:00:03
+		144, CurrentStep trial 36, step=10.00, 15:00:04
+		145, CurrentStep trial 37, step=20.00, 15:00:05
+		146, CurrentStep trial 38, step=40.00, 15:00:05
+		147, CurrentStep trial 39, step=-40.00, 15:00:06
+		148, CurrentStep trial 40, step=-20.00, 15:00:07
+		149, CurrentStep trial 41, step=-10.00, 15:00:07
+		150, CurrentStep trial 42, step=10.00, 15:00:08
+		151, CurrentStep trial 43, step=20.00, 15:00:09
+		152, CurrentStep trial 44, step=40.00, 15:00:10
+		153, CurrentStep trial 45, step=-40.00, 15:00:10
+		154, CurrentStep trial 46, step=-20.00, 15:00:11
+		155, CurrentStep trial 47, step=-10.00, 15:00:12
+		156, CurrentStep trial 48, step=10.00, 15:00:13
+		157, CurrentStep trial 49, step=20.00, 15:00:13
+		158, CurrentStep trial 50, step=40.00, 15:00:14
+140424 - 15:00:52 - GH86-Gal4/+;pJFRC7/+;VT34811/+; F1_C1
+RigName: BasicEPhysRig
+	amplifier: MultiClamp700B
+For list of equipement run: equipmentSetupStruct('140424')
+140424 - 15:00:59 - GH86-Gal4/+;pJFRC7/+;VT34811/+; F1_C1
+RigName: TwoTrodeRig
+	amplifier_1: MultiClamp700B
+	amplifier_2: MultiClamp700BAux
+For list of equipement run: equipmentSetupStruct('140424')
+
+	CurrentStep - 15:01:03 - GH86-Gal4/+;pJFRC7/+;VT34811/+; F1_C1
+	Trial Block 4 - Tagged as {''}
+ 	{IClamp,IClamp}, durSweep=1.4, gain=, mode=, postDurInSec=0.5, preDurInSec=0.5, protocol=[CurrentStep], sampratein=50000, samprateout=50000, secondary_gain=, step=2, steps=[2  4  8], stimDurInSec=0.4, Vm_id=0
+		159, CurrentStep trial 51, step=2.00, 15:01:05
+		160, CurrentStep trial 52, step=4.00, 15:01:07
+		161, CurrentStep trial 53, step=8.00, 15:01:08
+		162, CurrentStep trial 54, step=2.00, 15:01:10
+		163, CurrentStep trial 55, step=4.00, 15:01:12
+		164, CurrentStep trial 56, step=8.00, 15:01:14
+		165, CurrentStep trial 57, step=2.00, 15:01:15
+		166, CurrentStep trial 58, step=4.00, 15:01:17
+		167, CurrentStep trial 59, step=8.00, 15:01:19
+		168, CurrentStep trial 60, step=2.00, 15:01:21
+		169, CurrentStep trial 61, step=4.00, 15:01:23
+		170, CurrentStep trial 62, step=8.00, 15:01:24
+		171, CurrentStep trial 63, step=2.00, 15:01:26
+		172, CurrentStep trial 64, step=4.00, 15:01:28
+		173, CurrentStep trial 65, step=8.00, 15:01:30
+140424 - 15:01:34 - GH86-Gal4/+;pJFRC7/+;VT34811/+; F1_C1
+RigName: BasicEPhysRig
+	amplifier: MultiClamp700BAux
+For list of equipement run: equipmentSetupStruct('140424')

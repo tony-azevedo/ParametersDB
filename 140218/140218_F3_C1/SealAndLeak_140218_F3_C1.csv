@@ -1,0 +1,2 @@
+"durSweep","gain","mode","protocol","pulses","sampratein","samprateout","secondary_gain","stepamp","stepdur","Vm_id","trial","trialBlock","tags","rawname","datestr","idstr","fly","cell","genotype","timestamp","path"
+0.668,10,VClamp,SealAndLeak,20,100000,100000,5,5,0.0167,0,1,1,R_input,SealAndLeak_Raw_140218_F3_C1_1.mat,140218,140218_F3_C1,3,1,GH86-Gal4/+;pJFRC7/+;VT34811/+,01-May-2014 21:03:19,/Users/tony/Code/ParametersDB/140218/140218_F3_C1

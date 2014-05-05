@@ -1,0 +1,6 @@
+"durSweep","gain","mode","protocol","sampratein","samprateout","secondary_gain","Vm_id","trial","trialBlock","tags","rawname","datestr","idstr","fly","cell","genotype","timestamp","path"
+5,5,IClamp,Sweep,50000,50000,10,0,1,2,NaN,Sweep_Raw_140218_F3_C1_1.mat,140218,140218_F3_C1,3,1,GH86-Gal4/+;pJFRC7/+;VT34811/+,01-May-2014 21:03:19,/Users/tony/Code/ParametersDB/140218/140218_F3_C1
+5,5,IClamp,Sweep,50000,50000,10,0,2,2,NaN,Sweep_Raw_140218_F3_C1_2.mat,140218,140218_F3_C1,3,1,GH86-Gal4/+;pJFRC7/+;VT34811/+,01-May-2014 21:03:19,/Users/tony/Code/ParametersDB/140218/140218_F3_C1
+5,5,IClamp,Sweep,50000,50000,10,0,3,2,NaN,Sweep_Raw_140218_F3_C1_3.mat,140218,140218_F3_C1,3,1,GH86-Gal4/+;pJFRC7/+;VT34811/+,01-May-2014 21:03:19,/Users/tony/Code/ParametersDB/140218/140218_F3_C1
+5,5,IClamp,Sweep,50000,50000,10,0,4,2,NaN,Sweep_Raw_140218_F3_C1_4.mat,140218,140218_F3_C1,3,1,GH86-Gal4/+;pJFRC7/+;VT34811/+,01-May-2014 21:03:19,/Users/tony/Code/ParametersDB/140218/140218_F3_C1
+5,5,IClamp,Sweep,50000,50000,10,0,5,2,NaN,Sweep_Raw_140218_F3_C1_5.mat,140218,140218_F3_C1,3,1,GH86-Gal4/+;pJFRC7/+;VT34811/+,01-May-2014 21:03:19,/Users/tony/Code/ParametersDB/140218/140218_F3_C1

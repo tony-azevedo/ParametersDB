@@ -1,0 +1,4 @@
+"durSweep","gain","mode","protocol","sampratein","samprateout","secondary_gain","Vm_id","trial","trialBlock","tags","rawname","datestr","idstr","fly","cell","genotype","timestamp","path"
+5,5,IClamp,Sweep,50000,50000,10,0,1,3,NaN,Sweep_Raw_140219_F3_C4_1.mat,140219,140219_F3_C4,3,4,GH86-Gal4/+;pJFRC7/+;VT34811/+,01-May-2014 21:03:19,/Users/tony/Code/ParametersDB/140219/140219_F3_C4
+5,5,IClamp,Sweep,50000,50000,10,0,2,3,NaN,Sweep_Raw_140219_F3_C4_2.mat,140219,140219_F3_C4,3,4,GH86-Gal4/+;pJFRC7/+;VT34811/+,01-May-2014 21:03:19,/Users/tony/Code/ParametersDB/140219/140219_F3_C4
+5,5,IClamp,Sweep,50000,50000,10,0,3,3,NaN,Sweep_Raw_140219_F3_C4_3.mat,140219,140219_F3_C4,3,4,GH86-Gal4/+;pJFRC7/+;VT34811/+,01-May-2014 21:03:19,/Users/tony/Code/ParametersDB/140219/140219_F3_C4
